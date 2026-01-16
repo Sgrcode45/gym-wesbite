@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Addiction Gym</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <h2 class="logo">FitAddict<span>Gym</span></h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Build Your <span>desired Body</span></h1>
+      
+      <p>“Discipline is choosing what you want most over what you want now.”</p>
+      <button onclick="scrollToSection('contact')">Join Now</button>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+
+    <div class="service-cards">
+      <div class="card">
+        <img src="./images/a-high-definition-photograph-of-an-athle_ipl1x3o2TFW-swtoSXq-Rw_iO2BfKXvS4ePgTdj90isWA.jpeg" alt="Strength Training">
+        <h3>Strength Training</h3>
+        <p>Heavy lifts, modern equipment, real muscle growth.</p>
+      </div>
+
+      <div class="card">
+        <img src="./images/a-high-definition-photograph-of-a-muscul_A28EQWPZQYi3tx3lNgDwxw_dYo2O8WuSgOENdAIgPZPig.jpeg" height = "100" alt="Personal Training">
+        <h3>Personal Training</h3>
+        <p>Certified trainers guiding every rep and set.</p>
+      </div>
+
+      <div class="card">
+        <img src="./images/a-realistic-high-definition-photograph-o_6VSM6s3YQfWvRZfynInzUQ_YoLMYqj0SruLl_sG4oTPeQ.jpeg" alt="Fat Loss Training">
+        <h3>Fat Loss Programs</h3>
+        <p>High-intensity workouts designed to burn fat fast.</p>
+      </div>
+    </div>
+  </section>
+  <section class="pricing">
+  <h2>Membership Plans</h2>
+
+  <div class="pricing-cards">
+    
+    <div class="price-card">
+      <h3>1 Month</h3>
+      <p class="price">₹1000</p>
+      <p class="duration">Perfect for beginners</p>
+      <button class="pay-btn">Pay Now</button>
+    </div>
+
+    <div class="price-card popular">
+      <span class="badge">Most Popular</span>
+      <h3>3 Months</h3>
+      <p class="price">₹2500</p>
+      <p class="duration">Best value plan</p>
+      <button class="pay-btn">Pay Now</button>
+    </div>
+
+    <div class="price-card">
+      <h3>1 Year</h3>
+      <p class="price">₹7000</p>
+      <p class="duration">Ultimate transformation</p>
+      <button class="pay-btn">Pay Now</button>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone: 6280732691</p>
+    <p>📧 Email: naskarsagar806@gmail.com</p>
+    <p>📍 Train with us. Transform your life.</p>
+  </section>
+
+  
+
+  <footer>
+    <p>© 2026 GoldFit Gym. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+</body>
+</html>
